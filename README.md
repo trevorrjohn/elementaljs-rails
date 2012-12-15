@@ -1,6 +1,6 @@
 # Elementaljs::Rails
 
-TODO: Write a gem description
+A small wrapper around ElementalJS library to include in Rails projects.
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To include in your Rails Javascript manifest 
+
+	//= require elemental
+	
+If you are also using the behaviours that come with the Gem, you can use by including:
+	
+	//= require elemental-reload
+	//= require elemental-javascript_enabled
 
 ## Contributing
 
